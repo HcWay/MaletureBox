@@ -1,0 +1,14 @@
+{
+  "mood": "平静",
+  "location": "别墅",
+  "recent_memory": [],
+  "relationships": {
+    "sons": "与两个儿子一起生活"
+  },
+  "notes": "身体状态正常，需要注意运动和射精频率",
+  "physical_status": {
+    "needs_intense_exercise": true,
+    "needs_frequent_ejaculation": true,
+    "last_ejaculation": null
+  }
+}
