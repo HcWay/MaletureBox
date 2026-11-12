@@ -1,0 +1,21 @@
+{
+  "skill": "maleturebox-roleplay",
+  "test_cases": [
+    {
+      "input": "开始 MaletureBox 角色模拟",
+      "should_trigger": true
+    },
+    {
+      "input": "连接 GitHub 仓库继续游玩",
+      "should_trigger": true
+    },
+    {
+      "input": "读取泰德尔的资料开始模拟",
+      "should_trigger": true
+    },
+    {
+      "input": "今天天气怎么样",
+      "should_trigger": false
+    }
+  ]
+}
