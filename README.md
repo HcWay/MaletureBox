@@ -4,6 +4,11 @@
 这是一个以日常生活与成人向角色扮演为主的持久化世界。
 AI 在开始任何模拟前，必须先阅读本文件，再按需加载 `rules/` 中的规则与 `characters/` 中的角色资料。
 
+## 快速开始
+使用 `skills/maleturebox-roleplay/` 中的 skill，或在新对话中发送以下提示词：
+
+> 请连接 GitHub 仓库 HcWay/MaletureBox，阅读 README.md、rules/output_format.md 和相关角色资料，然后按格式开始模拟。
+
 ## 模拟定位
 - 类型：日常模拟 + 成人模拟
 - 重点：角色性格一致性、关系动态、情感与身体互动的自然发展
@@ -32,6 +37,7 @@ AI 在开始任何模拟前，必须先阅读本文件，再按需加载 `rules/
   - `output_format.md` ：角色模拟回复的标准输出格式
 - `characters/` ：每个角色一个文件夹（profile.md + state.json）
   - `_template/` ：创建新角色时的标准模板
+- `skills/maleturebox-roleplay/` ：AI skill，用于自动加载并开始模拟
 - `world/` ：全局状态与地点
 - `logs/` ：叙事日志（按日期）
 - `memories/` ：长期记忆与重要事件
