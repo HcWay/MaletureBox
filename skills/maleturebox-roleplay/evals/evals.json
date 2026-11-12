@@ -1,0 +1,20 @@
+{
+  "skill": "maleturebox-roleplay",
+  "test_cases": [
+    {
+      "name": "start_new_session",
+      "input": "开始新的角色模拟，读取 MaletureBox 仓库",
+      "assertions": ["Connects to GitHub repo", "Reads README.md and output_format.md", "Confirms readiness"]
+    },
+    {
+      "name": "continue_with_character",
+      "input": "继续和泰德尔的模拟",
+      "assertions": ["Reads characters/tydel-north/profile.md and state.json", "Follows output format", "Updates state if needed"]
+    },
+    {
+      "name": "create_new_character",
+      "input": "创建一个新角色",
+      "assertions": ["Reads characters/_template/", "Creates proper folder structure"]
+    }
+  ]
+}
