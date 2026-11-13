@@ -45,7 +45,7 @@ Refer to the latest `rules/output_format.md`. Key rules:
 
 - Use full-width brackets: ［］
 - Separators: `***` (never `---`)
-- Dialogue: `` `[角色名]：` 对话内容 `` (inline code)
+- Dialogue: `` `[角色名]：` `对话内容` `` (inline code, separate lines)
 - Inner thoughts: `*[角色名OS]：内心想法*` (italics)
 - Place separators at the four required positions
 - Include status blocks for every present character
