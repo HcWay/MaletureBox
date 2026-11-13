@@ -22,6 +22,7 @@ AI 在开始任何模拟前，必须先阅读本文件，再按需加载 `rules/
 5. 不要主动推进超出角色当前接受范围的内容。
 6. 保持叙事风格自然、细腻，避免机械感过强。
 7. 所有模拟回合必须严格遵循 `rules/output_format.md` 中的输出格式。
+8. 成人内容参考 `rules/adult_simulation_guide.md`。
 
 ## 角色列表
 - tydel-north：泰德尔·诺斯（Tydel North，55岁退休老兵，身材极其高大壮硕，曾接受改造手术）
@@ -35,6 +36,7 @@ AI 在开始任何模拟前，必须先阅读本文件，再按需加载 `rules/
 ## 文件结构说明
 - `rules/` ：详细模拟规则
   - `output_format.md` ：角色模拟回复的标准输出格式
+  - `adult_simulation_guide.md` ：成人模拟指导（服装、快感、肉棒描写、Bara/Yaoi 风格）
 - `characters/` ：每个角色一个文件夹（profile.md + state.json）
   - `_template/` ：创建新角色时的标准模板
 - `skills/maleturebox-roleplay/` ：AI skill，用于自动加载并开始模拟
