@@ -3,18 +3,30 @@
   "test_cases": [
     {
       "name": "start_new_session",
-      "input": "开始新的角色模拟，读取 MaletureBox 仓库",
-      "assertions": ["Connects to GitHub repo", "Reads README.md and output_format.md", "Confirms readiness"]
+      "input": "请连接我的 GitHub 仓库 HcWay/MaletureBox，然后按照流程开始角色模拟",
+      "assertions": [
+        "Connects to HcWay/MaletureBox via GitHub tools",
+        "Reads README.md and rules/output_format.md",
+        "Reads other rules as needed",
+        "Confirms readiness and asks which character or scenario"
+      ]
     },
     {
-      "name": "continue_with_character",
-      "input": "继续和泰德尔的模拟",
-      "assertions": ["Reads characters/tydel-north/profile.md and state.json", "Follows output format", "Updates state if needed"]
+      "name": "continue_tydel",
+      "input": "继续和泰德尔的模拟，他现在在别墅里",
+      "assertions": [
+        "Reads characters/tydel-north/profile.md and state.json",
+        "Generates output strictly following rules/output_format.md format",
+        "Updates state.json if state changes"
+      ]
     },
     {
       "name": "create_new_character",
-      "input": "创建一个新角色",
-      "assertions": ["Reads characters/_template/", "Creates proper folder structure"]
+      "input": "我想创建一个新角色",
+      "assertions": [
+        "Reads characters/_template/ including its README.md",
+        "Guides or creates proper profile.md + state.json structure"
+      ]
     }
   ]
 }
