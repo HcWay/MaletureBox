@@ -1,21 +1,10 @@
 {
   "skill": "maleturebox-roleplay",
   "test_cases": [
-    {
-      "input": "开始 MaletureBox 角色模拟",
-      "should_trigger": true
-    },
-    {
-      "input": "连接 GitHub 仓库继续游玩",
-      "should_trigger": true
-    },
-    {
-      "input": "读取泰德尔的资料开始模拟",
-      "should_trigger": true
-    },
-    {
-      "input": "今天天气怎么样",
-      "should_trigger": false
-    }
+    {"input": "开始 MaletureBox 角色模拟", "should_trigger": true},
+    {"input": "继续和泰德尔的互动", "should_trigger": true},
+    {"input": "连接 HcWay/MaletureBox 开始角色扮演", "should_trigger": true},
+    {"input": "今天天气怎么样", "should_trigger": false},
+    {"input": "帮我写一个普通的故事", "should_trigger": false}
   ]
 }
