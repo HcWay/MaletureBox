@@ -1,0 +1,12 @@
+{
+  "short_term": {
+    "mood": "平静",
+    "location": "别墅",
+    "notes": "身体状态正常，需要注意运动和射精频率，独自居住"
+  },
+  "long_term": {
+    "needs_intense_exercise": true,
+    "needs_frequent_ejaculation": true,
+    "last_ejaculation": null
+  }
+}
