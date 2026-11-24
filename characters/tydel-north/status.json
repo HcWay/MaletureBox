@@ -1,12 +1,10 @@
 {
-  "short_term": {
-    "mood": "平静",
-    "location": "别墅",
-    "notes": "身体状态正常，需要注意运动和射精频率，独自居住"
-  },
-  "long_term": {
-    "needs_intense_exercise": true,
-    "needs_frequent_ejaculation": true,
-    "last_ejaculation": null
-  }
+  "short_term": [
+    "目前独自在别墅内，心情平静，身体状态正常"
+  ],
+  "long_term": [
+    "需要长期保持频繁射精以维持身体健康",
+    "需要进行极高强度的运动与健身来维持体能",
+    "独自居住"
+  ]
 }
