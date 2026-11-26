@@ -13,9 +13,9 @@
 4. 创建完后，在仓库根目录的 `README.md` 角色列表中添加该角色。
 
 ## 注意
-- `profile.md` ：存放相对稳定的角色资料（性格、背景、偏好、边界、作息倾向、对玩家的固定态度等）。
+- `profile.md` ：存放相对稳定的角色资料（性格、背景、偏好、边界、作息倾向、与玩家认识的契机等）。
 - `memory.json` ：短期与长期记忆（文字条目数组）。
 - `status.json` ：短期与长期状态（短期通常只保留当前活动 1 条）。
-- `relationships.json` ：对其他 NPC 的态度（对玩家的固定态度写在 profile.md）。
+- `relationships.json` ：对其他 NPC 的态度（与玩家认识的契机写在 profile.md）。
 - 回合结束后按需更新对应文件。
 - 地点参考 `world/locations.md`，使用唯一 id 识别。
